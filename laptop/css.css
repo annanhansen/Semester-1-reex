@@ -1,0 +1,103 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+header {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.mitte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#teaser {
+    width: 100%;
+    height: 300px;
+}
+
+#teaser img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 800px) {
+    #teaser {
+        height: 600px;
+    }
+}
+
+nav {
+    position: sticky;
+    top: 0px;
+    backdrop-filter: blur(4px);
+    padding: 10px;
+}
+
+#ommig,
+#mineværker,
+#kontakt {
+    padding-top: 20px;
+}
+
+footer ul,
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li a,
+nav ul li a {
+    font-weight: 600;
+    padding: 16px;
+    color: #CE6857;
+}
+hr {
+    border: 0.4px solid #CE685755;
+    }
+
+section {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: solid;
+    color: black;
+}
+
+.galerie {
+    margin: 0 auto;
+    display: grid;
+    gap: 2vw;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.bild img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.galerie2 {
+    margin: 18px auto;
+    display: grid;
+    gap: 2vw;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+p1 {
+color: #CE6857;
+}
